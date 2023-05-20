@@ -6,7 +6,9 @@ Will output the wav file and txt file in the same directory as the mp3 file.
 It is mostly accurate and does of course rely on the clarity of the audio as well as annunciation of the speaker/s.
 
 It is necessary to run the following commands for the script to work: 
+
 pip install ffmpeg-downloader
+
 ffdl install --add-path
 
 This is necessary for ffmpeg-python library to actually use the ffmpeg binary.
